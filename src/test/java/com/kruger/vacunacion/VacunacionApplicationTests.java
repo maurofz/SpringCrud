@@ -1,4 +1,4 @@
-package com.jhonny.vacunacion;
+package com.kruger.vacunacion;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

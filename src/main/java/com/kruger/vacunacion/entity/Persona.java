@@ -1,4 +1,4 @@
-package com.jhonny.vacunacion.entity;
+package com.kruger.vacunacion.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

@@ -1,18 +1,17 @@
-package com.jhonny.vacunacion.controllers;
+package com.kruger.vacunacion.controllers;
 
 import java.util.List;
 
+import com.kruger.vacunacion.repository.IVacunacionRepository;
+import com.kruger.vacunacion.services.EmpleadoService;
+import com.kruger.vacunacion.services.VacunacionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.jhonny.vacunacion.entity.Empleado;
-import com.jhonny.vacunacion.repository.IEmpleadoRepository;
-import com.jhonny.vacunacion.repository.IVacunacionRepository;
-import com.jhonny.vacunacion.services.EmpleadoService;
-import com.jhonny.vacunacion.services.VacunacionService;
+import com.kruger.vacunacion.repository.IEmpleadoRepository;
 
 @RestController
 @RequestMapping("/api/empleados/filtros")

@@ -1,8 +1,8 @@
-package com.jhonny.vacunacion.services;
+package com.kruger.vacunacion.services;
 
 import java.util.List;
 
-import com.jhonny.vacunacion.entity.Empleado;
+import com.kruger.vacunacion.entity.Empleado;
 
 public interface IEmpleadoService {
 	

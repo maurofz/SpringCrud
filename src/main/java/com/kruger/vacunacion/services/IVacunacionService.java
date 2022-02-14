@@ -1,8 +1,8 @@
-package com.jhonny.vacunacion.services;
+package com.kruger.vacunacion.services;
 
 import java.util.List;
 
-import com.jhonny.vacunacion.entity.Vacunacion;
+import com.kruger.vacunacion.entity.Vacunacion;
 
 public interface IVacunacionService {
 	public Vacunacion create(Vacunacion vacunado);

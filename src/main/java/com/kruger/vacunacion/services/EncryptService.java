@@ -1,4 +1,4 @@
-package com.jhonny.vacunacion.services;
+package com.kruger.vacunacion.services;
 
 import org.springframework.security.crypto.bcrypt.BCrypt;
 import org.springframework.stereotype.Service;

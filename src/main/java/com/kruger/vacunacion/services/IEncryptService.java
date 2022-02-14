@@ -1,4 +1,4 @@
-package com.jhonny.vacunacion.services;
+package com.kruger.vacunacion.services;
 
 public interface IEncryptService {
 	String encryptPassword(String password);

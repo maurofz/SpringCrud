@@ -1,8 +1,9 @@
-package com.jhonny.vacunacion.controllers;
+package com.kruger.vacunacion.controllers;
 
 import java.util.List;
 
 
+import com.kruger.vacunacion.services.EncryptService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -15,9 +16,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.jhonny.vacunacion.entity.Empleado;
-import com.jhonny.vacunacion.services.EmpleadoService;
-import com.jhonny.vacunacion.services.EncryptService;
+import com.kruger.vacunacion.entity.Empleado;
+import com.kruger.vacunacion.services.EmpleadoService;
 
 import errors.ResponseErrors;
 

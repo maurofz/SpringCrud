@@ -1,14 +1,13 @@
-package com.jhonny.vacunacion.services;
+package com.kruger.vacunacion.services;
 
 import java.util.List;
 import java.util.Optional;
 
+import com.kruger.vacunacion.entity.Vacunacion;
+import com.kruger.vacunacion.repository.IVacunacionRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
-import com.jhonny.vacunacion.entity.Vacunacion;
-import com.jhonny.vacunacion.repository.IVacunacionRepository;
 
 @Service
 public class VacunacionService implements IVacunacionService{

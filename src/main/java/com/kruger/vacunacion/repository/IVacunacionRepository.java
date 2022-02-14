@@ -1,12 +1,11 @@
-package com.jhonny.vacunacion.repository;
+package com.kruger.vacunacion.repository;
 
 import java.util.List;
 
+import com.kruger.vacunacion.entity.Vacunacion;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
-
-import com.jhonny.vacunacion.entity.Vacunacion;
 
 public interface IVacunacionRepository extends JpaRepository<Vacunacion, Integer>{
 	

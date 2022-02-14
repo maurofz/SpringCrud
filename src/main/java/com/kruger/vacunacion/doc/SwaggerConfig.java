@@ -1,4 +1,4 @@
-package com.jhonny.vacunacion.doc;
+package com.kruger.vacunacion.doc;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -17,7 +17,7 @@ public class SwaggerConfig {
 	public Docket api() {
 		return new Docket(DocumentationType.SWAGGER_2)
 				.select().
-				apis(RequestHandlerSelectors.basePackage("com.jhonny.vacunacion.controllers"))
+				apis(RequestHandlerSelectors.basePackage("com.kruger.vacunacion.controllers"))
 				.paths(PathSelectors.any())
 				.build();
 	}

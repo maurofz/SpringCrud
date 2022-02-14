@@ -1,9 +1,9 @@
-package com.jhonny.vacunacion;
+package com.kruger.vacunacion;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import com.jhonny.vacunacion.doc.SwaggerConfig;
+import com.kruger.vacunacion.doc.SwaggerConfig;
 
 @SpringBootApplication
 public class VacunacionApplication {

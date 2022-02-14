@@ -1,4 +1,4 @@
-package com.jhonny.vacunacion.services;
+package com.kruger.vacunacion.services;
 
 import java.util.List;
 import java.util.Optional;
@@ -7,8 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.jhonny.vacunacion.entity.Empleado;
-import com.jhonny.vacunacion.repository.IEmpleadoRepository;
+import com.kruger.vacunacion.entity.Empleado;
+import com.kruger.vacunacion.repository.IEmpleadoRepository;
 
 @Service
 public class EmpleadoService implements IEmpleadoService {
